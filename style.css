@@ -18,7 +18,7 @@ tlačítko Facebook aktivní: #2b406e
 
 body {
     background-color: #b2bec3;
-    }
+}
 
 .medailonek {
     position: relative;
@@ -60,9 +60,9 @@ img {
     box-shadow: grey 0 0 10px;
 }
 
-.twitter {
+.button {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     background-color: #1da1f2;
@@ -72,19 +72,18 @@ img {
     border-radius: 5px; 
 }
 
+.twitter {
+    background-color: #1da1f2;
+}
+
 .twitter a:active {
     background-color:#0b7bc1;
 }
 
 .facebook {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
     background-color: #3b5998;
-    padding: 10px;
-    border-radius: 5px;
-}
+    margin-top: 5px;
+   }
 
 .facebook a:active {
     background-color: #2b406e;
